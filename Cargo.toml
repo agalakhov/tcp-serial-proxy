@@ -1,0 +1,10 @@
+[package]
+name = "tcp-proxy"
+version = "0.1.0"
+authors = ["Alexey Galakhov <agalakhov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "*"
+tokio = "0.1.15"
+tokio-serial = "*"
